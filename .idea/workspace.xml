@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611913990521</updated>
       <workItem from="1611913992550" duration="3000" />
-      <workItem from="1611914027253" duration="35633000" />
+      <workItem from="1611914027253" duration="35889000" />
     </task>
     <servers />
   </component>
@@ -51,6 +51,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2316" y="333" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612352752565">
+      <screen x="1440" y="64" width="1920" height="1000" />
+    </state>
+    <state x="2316" y="333" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.64.1920.1000/0.23.1440.877@1440.64.1920.1000" timestamp="1612352752565" />
     <state x="2529" y="478" key="NewPhpFileDialog" timestamp="1612177166011">
       <screen x="1440" y="64" width="1920" height="1000" />
     </state>

@@ -2,3 +2,5 @@
 * text=auto
 
 * .php linguist-language=php
+* .css linguist-language=css
+* .js linguist-language=JavaScript

@@ -54,7 +54,7 @@
                         }elseif($_SESSION['levelUser'] == 4){
                             echo '<li><a href="mediaPanel.php">Media Panel</a></li>';
                         }elseif($_SESSION['levelUser'] == 6 or $_SESSION['levelUser'] == 5){
-                            echo '<li><a href="vtcMPanel.php">VTC Management Panel</a></li>';
+                            echo '<li><a href="adminMPanel.php">Management Panel</a></li>';
                         }elseif($_SESSION['levelUser'] >= 7){
                             echo '<li><a href="adminMPanel.php">High Management Panel</a></li>'; 
                         }

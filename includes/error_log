@@ -1,0 +1,78 @@
+[08-Jan-2021 21:06:18 UTC] PHP Notice:  Undefined index: remember in /home/quantumgaming/public_html/hub/includes/login.inc.php on line 6
+[08-Jan-2021 21:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/login.inc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/login.inc.php on line 16
+[08-Jan-2021 21:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 21:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 21:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 21:11:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 21:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 21:16:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 21:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 21:24:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/quantumgaming/public_html/hub/includes/register.inc.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 49
+[08-Jan-2021 23:15:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 51
+[08-Jan-2021 23:15:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 54
+[08-Jan-2021 23:15:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 57
+[08-Jan-2021 23:28:06 UTC] PHP Notice:  Undefined index: remember in /home/quantumgaming/public_html/hub/includes/login.inc.php on line 6
+[08-Jan-2021 23:28:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 51
+[08-Jan-2021 23:28:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 54
+[08-Jan-2021 23:28:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quantumgaming/public_html/hub/includes/register.inc.php on line 57
+[08-Jan-2021 23:33:15 UTC] PHP Notice:  Undefined index: remember in /home/quantumgaming/public_html/hub/includes/login.inc.php on line 6
+[09-Jan-2021 01:00:57 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/quantumgaming/public_html/hub/includes/reset-request.inc.php on line 47
+[09-Jan-2021 01:00:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/quantumgaming/public_html/hub/includes/reset-request.inc.php on line 47
+[09-Jan-2021 01:07:25 UTC] PHP Warning:  require_once(/php/Mail.php): failed to open stream: No such file or directory in /home/quantumgaming/public_html/hub/includes/reset-request.inc.php on line 47
+[09-Jan-2021 01:07:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/php/Mail.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/quantumgaming/public_html/hub/includes/reset-request.inc.php on line 47
+[09-Jan-2021 01:09:21 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/quantumgaming/php/Mail/smtp.php on line 365
+[09-Jan-2021 01:09:21 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/quantumgaming/php/Mail/smtp.php on line 365
+[09-Jan-2021 01:09:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/quantumgaming/php/Mail/smtp.php:366
+Stack trace:
+#0 /home/quantumgaming/php/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/quantumgaming/php/Mail/smtp.php(258): Mail_smtp->send_or_fail('Recipient Name ...', Array, ' We received a ...')
+#2 /home/quantumgaming/public_html/hub/includes/reset-request.inc.php(68): Mail_smtp->send('Recipient Name ...', Array, ' We received a ...')
+#3 {main}
+  thrown in /home/quantumgaming/php/Mail/smtp.php on line 366
+[09-Jan-2021 01:10:47 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/quantumgaming/public_html/hub/includes/Mail/smtp.php on line 365
+[09-Jan-2021 01:10:47 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/quantumgaming/public_html/hub/includes/Mail/smtp.php on line 365
+[09-Jan-2021 01:10:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/quantumgaming/public_html/hub/includes/Mail/smtp.php:366
+Stack trace:
+#0 /home/quantumgaming/public_html/hub/includes/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/quantumgaming/public_html/hub/includes/Mail/smtp.php(258): Mail_smtp->send_or_fail('Recipient Name ...', Array, ' We received a ...')
+#2 /home/quantumgaming/public_html/hub/includes/reset-request.inc.php(68): Mail_smtp->send('Recipient Name ...', Array, ' We received a ...')
+#3 {main}
+  thrown in /home/quantumgaming/public_html/hub/includes/Mail/smtp.php on line 366
+[09-Jan-2021 01:18:06 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/quantumgaming/public_html/hub/includes/reset-request.inc.php on line 47
+[09-Jan-2021 01:18:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/quantumgaming/public_html/hub/includes/reset-request.inc.php on line 47
+[09-Jan-2021 01:19:02 UTC] PHP Warning:  include_once(Net/SMTP.php): failed to open stream: No such file or directory in /home/quantumgaming/php/Mail/smtp.php on line 365
+[09-Jan-2021 01:19:02 UTC] PHP Warning:  include_once(): Failed opening 'Net/SMTP.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/quantumgaming/php/Mail/smtp.php on line 365
+[09-Jan-2021 01:19:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Net_SMTP' not found in /home/quantumgaming/php/Mail/smtp.php:366
+Stack trace:
+#0 /home/quantumgaming/php/Mail/smtp.php(271): Mail_smtp->getSMTPObject()
+#1 /home/quantumgaming/php/Mail/smtp.php(258): Mail_smtp->send_or_fail('Recipient Name ...', Array, ' We received a ...')
+#2 /home/quantumgaming/public_html/hub/includes/reset-request.inc.php(68): Mail_smtp->send('Recipient Name ...', Array, ' We received a ...')
+#3 {main}
+  thrown in /home/quantumgaming/php/Mail/smtp.php on line 366
